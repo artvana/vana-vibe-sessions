@@ -52,12 +52,9 @@ export default function ChallengeBrief({
 
       <main className="flex-1 px-6 py-10 max-w-2xl mx-auto w-full">
         <div className="mb-8">
-          <div className="flex items-center gap-2 mb-3">
+          <div className="mb-3">
             <span className="text-xs font-medium text-[#838383] tracking-widest uppercase">
               Your Challenge
-            </span>
-            <span className="text-xs text-[#838383] border border-[#e8e8e8] px-2 py-0.5 rounded-[5px]">
-              {challenge.estimatedTime}
             </span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-semibold text-[#151515] tracking-tight leading-tight mb-3">

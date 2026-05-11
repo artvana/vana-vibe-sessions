@@ -66,12 +66,9 @@ function ChallengeCard({
 }) {
   return (
     <div className="flex flex-col border border-[#e8e8e8] rounded-[9px] p-5 hover:border-[#187adc] transition-colors duration-150 group">
-      <div className="flex items-start justify-between mb-3">
+      <div className="mb-3">
         <span className="text-xs font-medium text-[#838383] tracking-widest uppercase">
           Option {index + 1}
-        </span>
-        <span className="text-xs text-[#838383] border border-[#e8e8e8] px-2 py-0.5 rounded-[5px] whitespace-nowrap">
-          {challenge.estimatedTime}
         </span>
       </div>
 
